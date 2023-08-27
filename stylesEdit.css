@@ -1,0 +1,193 @@
+header {
+  background-color: rgba(128, 80, 18, 0.728);
+  color: black;
+  padding: 20px;
+  font-family: Gautami;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.main {
+  /* background-color: #f1f1f1; */
+  background-color: rgba(128, 80, 18, 0.728);
+  color: black;
+  padding: 20px;
+  font-family: Gautami;
+  text-align: center;
+}
+
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  /* background-color: purple; */
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumb li + li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #0a0b0c;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #292a2c;
+  text-decoration: underline;
+}
+
+p::first-letter {
+  color: black;
+  font-size: xx-large;
+}
+
+/* ul.footernav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(128, 80, 18, 0.728);
+  }
+
+  ul.footernav li {
+    float: left;
+  }
+
+  ul.footernav li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  ul.footernav li a:hover {
+    background-color: rgba(128, 80, 18, 0.398);
+  } */
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+.image {
+  height: 200px;
+  width: 100%;
+}
+
+/* Create three equal columns that floats next to each other
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+  }
+  
+  /* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the 3 column stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+h2 {
+  z-index: -1;
+}
+
+/* email sign up*/
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: rgba(3, 3, 126, 0.8);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: rgba(3, 3, 126, 0.692);
+}
+
+.forms1 {
+  border-radius: 5px;
+  background-color: rgba(128, 80, 18, 0.728);
+  /* background-color: #f2f2f2; */
+  padding: 20px;
+}
+
+ul.footernav {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(128, 80, 18, 0.728);
+}
+
+ul.footernav li {
+  float: left;
+}
+
+ul.footernav li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.footernav li a:hover {
+  background-color: rgba(128, 80, 18, 0.398);
+}
